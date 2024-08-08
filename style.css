@@ -1,0 +1,69 @@
+.sun {
+  height: 20vw;
+  width: 20vw;
+  background-color: darkorange;
+  border-radius: 50%;
+}
+
+.grass {
+  height: 5vw;
+  width: 100%;
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+  height: 8vw;
+  width: 8vw;
+  margin: 10px;
+}
+
+.black {
+  background-color: black;
+  height: 8vw;
+  width: 8vw;
+  margin: 10px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 8vw;
+    width: 8vw;
+    margin: 10px;
+}
+
+.purple {
+    background-color: purple;
+    height: 8vw;
+    width: 8vw;
+    margin: 10px;
+}
+
+.squares {
+    display: flex;
+}
+
+#blue {
+  background-color: blue;
+  height: 8vw;
+  width: 8vw;
+  margin: 10px;
+}
+
+#brown {
+  background-color: brown;
+  height: 8vw;
+  width: 8vw;
+  margin: 10px;
+}
+
+#teal {
+  height: 20vw;
+  width: 20vw;
+  background-color: teal;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  padding: 10px 10px;
+}
+
