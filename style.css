@@ -26,21 +26,21 @@
 }
 
 .yellow {
-    background-color: yellow;
-    height: 8vw;
-    width: 8vw;
-    margin: 10px;
+  background-color: yellow;
+  height: 8vw;
+  width: 8vw;
+  margin: 10px;
 }
 
 .purple {
-    background-color: purple;
-    height: 8vw;
-    width: 8vw;
-    margin: 10px;
+  background-color: purple;
+  height: 8vw;
+  width: 8vw;
+  margin: 10px;
 }
 
 .squares {
-    display: flex;
+  display: flex;
 }
 
 #blue {
@@ -65,5 +65,60 @@
   position: absolute;
   z-index: -1;
   padding: 10px 10px;
+  left: 65%;
+  top: 10%;
 }
 
+#parallelogram {
+  width: 10vw;
+  height: 10vw;
+  transform: skew(20deg);
+  background: red;
+  margin: 10px;
+  padding-left: 25px;
+  left: 65%;
+  top: -25px;
+  
+}
+
+#star {
+  margin: 50px 0;
+      position: relative;
+      display: block;
+      color: red;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+}
+
+#before {
+  border-bottom: 80px solid white;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: 1%;
+      left: 250px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+}
+
+#after {
+  position: absolute;
+  display: block;
+  color: black;
+  top: 122px;
+  left: 150px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid black;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
